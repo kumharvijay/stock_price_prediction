@@ -7,7 +7,7 @@ import matplotlib.pyplot as plt
 import tensorflow as tf
 
 # Load a TensorFlow model
-model = tf.keras.models.load_model(r'C:\Users\vijay kumhar\3D Objects\machine\Stock Predictions Model.keras')
+model = tf.keras.models.load_model('Stock Predictions Model.keras')
 
 
 #model = load_model('C:\Users\vijay kumhar\3D Objects\machine\Stock Predictions Model.keras')
